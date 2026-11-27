@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-mama" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899" />
+      <stop offset="100%" stop-color="#be185d" />
+    </linearGradient>
+    <linearGradient id="sunglasses-mama" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#312e81" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="58" fill="url(#bg-mama)" stroke="#f472b6" stroke-width="4"/>
+  <!-- Flowing hair -->
+  <path d="M26 50 Q20 86 34 94 Q40 94 38 78" fill="#713f12"/>
+  <path d="M94 50 Q100 86 86 94 Q80 94 82 78" fill="#713f12"/>
+  <!-- Face -->
+  <circle cx="60" cy="58" r="26" fill="#fde68a"/>
+  <!-- Hair top & headband -->
+  <path d="M34 48 Q60 20 86 48 Z" fill="#713f12"/>
+  <path d="M32 46 Q60 30 88 46" stroke="#fbbf24" stroke-width="5" fill="none"/>
+  <!-- Cat-eye Sunglasses -->
+  <path d="M38 48 C42 44 56 46 56 54 C56 59 46 60 40 55 C37 52 36 50 38 48 Z" fill="url(#sunglasses-mama)" stroke="#fbbf24" stroke-width="1.5"/>
+  <path d="M82 48 C78 44 64 46 64 54 C64 59 74 60 80 55 C83 52 84 50 82 48 Z" fill="url(#sunglasses-mama)" stroke="#fbbf24" stroke-width="1.5"/>
+  <line x1="56" y1="52" x2="64" y2="52" stroke="#fbbf24" stroke-width="2"/>
+  <!-- Smile & lipstick -->
+  <path d="M50 70 Q60 78 70 70" stroke="#e11d48" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+  <!-- Clothing & Scarf -->
+  <path d="M30 108 Q60 86 90 108" fill="#0284c7" stroke="#38bdf8" stroke-width="3"/>
+  <path d="M52 92 Q60 102 68 92 Q60 98 52 92 Z" fill="#fbbf24"/>
+</svg>

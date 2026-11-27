@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-lucas" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <linearGradient id="goggles" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="58" fill="url(#bg-lucas)" stroke="#fbbf24" stroke-width="4"/>
+  <!-- Hair back -->
+  <circle cx="60" cy="52" r="32" fill="#78350f" />
+  <!-- Face -->
+  <circle cx="60" cy="58" r="26" fill="#fcd34d" />
+  <!-- Hair top -->
+  <path d="M38 46 Q60 22 82 46 Q60 38 38 46 Z" fill="#78350f" />
+  <!-- Retro Goggles Strap -->
+  <rect x="30" y="50" width="60" height="6" rx="3" fill="#1e293b" />
+  <!-- Goggles Frames -->
+  <rect x="40" y="46" width="18" height="14" rx="4" fill="#0f172a" stroke="#fbbf24" stroke-width="2"/>
+  <rect x="62" y="46" width="18" height="14" rx="4" fill="#0f172a" stroke="#fbbf24" stroke-width="2"/>
+  <!-- Goggles Lens Glass -->
+  <rect x="42" y="48" width="14" height="10" rx="3" fill="url(#goggles)"/>
+  <rect x="64" y="48" width="14" height="10" rx="3" fill="url(#goggles)"/>
+  <line x1="44" y1="50" x2="48" y2="54" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="66" y1="50" x2="70" y2="54" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Smile -->
+  <path d="M52 68 Q60 76 68 68" stroke="#92400e" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <!-- Jacket/Body -->
+  <path d="M32 108 Q60 88 88 108" fill="#1e293b" stroke="#f59e0b" stroke-width="3"/>
+  <path d="M54 94 L60 108 L66 94 Z" fill="#fbbf24"/>
+</svg>
